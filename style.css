@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* height: 100%;
+    width: 100%; */
+    display: grid;
+    justify-content: center;
+}
+
+h1 {
+    padding: 25px 0;
+    text-align: center;
+}
+
+#pointsHeading {
+    display: flex;
+    justify-content: space-around;
+}
+
+#container {
+    height: 60vh;
+    width: 60vw;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    /* grid-template-rows: repeat(3, 1fr); */
+    /* background-color: aqua; */
+    /* justify-content: center; */
+    margin: 50px auto;
+    gap: 10px 10px;
+}
+
+#container div {
+    /* grid-template-columns: repeat(1fr, 3); */
+    /* justify-content: center; */
+    /* grid-gap; */
+    border: 1px solid black;
+    text-align: center;
+    /* align-items: center; */
+    background-color: chartreuse;
+}
+
+.gameButtons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    /* margin: 0 50px; */
+    font-size: 1.5rem;
+    height: 2rem;
+    /* width: 6rem; */
+}
+
+#start {
+    margin-right: 50px;
+}
+
+#reset {
+    margin-left: 50px;
+}
+
+#container .mole {
+    background: red;
+}
